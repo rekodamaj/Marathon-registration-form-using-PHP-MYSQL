@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-image: url('../images/Sports.png');
+	background-repeat: repeat;
+}
+
+.registerationFormContainer {
+	padding: 5%;
+	border: 1px solid black;
+	border-radius: 10px;
+
+	box-shadow: 0 0 30px #ccc;
+	-moz-box-shadow: 0 0 30px #ccc;
+	-webkit-box-shadow: 0 0 30px #ccc;
+
+	background: #ffffffa6;
+}
+
+
+.registerationFormContainer label {
+	font-weight: bold;
+}
+
+.input-group-append {
+	display: none !important;
+}
+
+.hint {
+	font-weight: 100;
+}
+
+.loading  {
+	width: 79.3px;
+	cursor: no-drop !important;
+	/*cursor: none;*/
+}
+
+#button {
+
+	width: 79.3px !important;
+}
